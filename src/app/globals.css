@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Brand palette: white surfaces, green accents. */
+@theme {
+  --color-brand-50: #f0fdf4;
+  --color-brand-100: #dcfce7;
+  --color-brand-200: #bbf7d0;
+  --color-brand-500: #22c55e;
+  --color-brand-600: #16a34a;
+  --color-brand-700: #15803d;
+  --color-brand-900: #14532d;
+  --font-sans: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+body {
+  background: #ffffff;
+  color: #14532d;
+  font-family: var(--font-sans);
+}
